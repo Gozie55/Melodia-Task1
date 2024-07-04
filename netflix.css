@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
+header {
+  border-bottom: 8px solid grey;
+  padding-bottom: 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url('images/Netflix-Background.jpg') no-repeat center center;  background-size: cover;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 150px;
+}
+.btn-signIn {
+  padding: 9px 15px;
+  background-color: rgb(237, 43, 43);
+  border-radius: 5px;
+  border: none;
+  margin-right: 200px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+input[type="email"] {
+  width: 430px;
+  height: 45px;
+  padding: 8px 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+
+input[type="button"] {
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(237, 43, 43);
+  font-size: 18px;
+  color: white;
+
+}
+
+.same {
+  padding: 150px 80px;
+  border-bottom: 8px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#same2 {
+  flex-direction: row-reverse;
+  padding: 150px 120px;
+}
+
+.image-container {
+  width: 100%;
+}
+
+.section-text {
+  text-align: left;
+  width: 100%;
+}
+
+#sectionText{
+padding-left: 230px ;
+padding-right: 650px;
+}
+
+.image {
+  width: 550px;
+}
+.card{
+    background-color: black;
+    color: white;
+    text-align: left;
+
+}
+
+#lastSectionText{
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 150px;
+    margin-left: 0px;
+  }
+  .btn-signIn {
+    margin-right: 20px;
+  }
+  .navbar {
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-weight: 550;
+    font-size: 30px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .same {
+    flex-direction: column;
+    padding: 50px 5px;
+  }
+
+  #same2 {
+    flex-direction: column;
+    padding: 50px 5px;
+  }
+  .image {
+    width: 450px;
+    margin: 5px 0;
+  }
+  .section-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  #sectionText{
+    padding-left: 0px ;
+    padding-right: 0px;
+    padding-bottom: 25px;
+}
+    
+    
+}
